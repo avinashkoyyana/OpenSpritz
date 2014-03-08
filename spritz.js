@@ -1,4 +1,3 @@
-
 // spritz.js
 // A JavaScript Speed Reader
 // rich@gun.io
@@ -76,6 +75,7 @@ function spritz(){
 function spritzify(input){
 
     var wpm = parseInt($("#spritz_selector").val(), 10);
+    wpm = 150;
     var ms_per_word = 60000/wpm;
 
     // Split on any spaces.
